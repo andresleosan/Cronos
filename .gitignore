@@ -1,0 +1,23 @@
+# Secretos y credenciales
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.p12
+*.cer
+credentials*.json
+service-account*.json
+secrets/
+
+# Dependencias y artefactos
+node_modules/
+dist/
+build/
+*.log
+
+# Editor y sistema
+.vscode/
+.idea/
+.DS_Store
